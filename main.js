@@ -169,7 +169,7 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
 
     bosco.on('group-update', async (anu) => {
     falfa = { key: {fromMe: false,participant: "0@s.whatsapp.net",
-   remoteJid: "0@s.whatsapp.net"},message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "Alphabot", "caption": `🌹 𝑷 𝑬 𝑷 𝑬 - 𝑺 𝑬 𝑹 🌹`, 'jpegThumbnail': fs.readFileSync(`ds.jpg`)}}}
+   remoteJid: "0@s.whatsapp.net"},message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "Alphabot", "caption": `🌸  𝑱 𝑨 𝑪 𝑲 - 𝑩 𝑶 𝑻  🌸`, 'jpegThumbnail': fs.readFileSync(`ds.jpg`)}}}
     metdata = await bosco.groupMetadata(anu.jid)
     if(anu.announce == 'false'){
     teks = `*[ Gʀᴏᴜᴘ Oᴘᴇɴᴇᴅ ]*\n`
